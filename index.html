@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/aac8617baf.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style/style.css" />
+  <link rel="shortcut icon" href="./grafika/logo.png" type="image/x-icon">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <p>Jakub</p>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="toggle">
+      <i class="fa-solid fa-bars"></i>
+      <i class="fa-solid fa-xmark hide"></i>
+    </button>
+  </nav>
+  <header id="home">
+    <div class="contener">
+      <div class="photo">
+        <i class="fa-solid fa-user"></i>
+      </div>
+      <div class="text">
+        <h3>Hello my name is: <span>Jakub</span></h3>
+        <div class="text-run">
+          <p>I want be a:</p>
+          <span class="napis"></span>
+        </div>
+      </div>
+      <div class="rain">
+      </div>
+
+    </div>
+  </header>
+  <main>
+
+    <section id="about">
+      <h1>About me</h1>
+      <div class="card-contener">
+        <div class="card" data-aos="fade-right">
+          <div class="icon">
+            <i class="fa-solid fa-user-graduate" style="color: #fff"></i>
+          </div>
+          <div class="description">
+            <h3>I'm student</h3>
+            <p>
+              I am currently studying at a technical school, I am in-down my 4th year and I love creating websites.
+            </p>
+          </div>
+        </div>
+
+        <div class="card card-center" data-aos="zoom-in-down">
+          <div class="icon">
+            <i class="fa-regular fa-clock" style="color: #ffffff"></i>
+          </div>
+          <div class="description">
+            <h3>My experience</h3>
+            <p>
+              Behind me I have already created several websites and completed courses.
+            </p>
+          </div>
+          <div class="experiance">
+
+            <div class="one-side">
+
+              <div data-aos="fade-right" class="first">
+                <h4>Course Udmey</h4>
+                <p>JavaScript - Jedyny Kurs, Którego Potrzebujesz!</p>
+              </div>
+
+              <div data-aos="fade-right" class="two">
+                <h4>Website Development</h4>
+                <p>Tworzenie witryn internetowych</p>
+              </div>
+
+            </div>
+
+
+            <div class="two-side">
+
+              <div data-aos="fade-left" class="first">
+                <h4>Course Udmey</h4>
+                <p>10 projektów w czystym JavaScript</p>
+              </div>
+
+              <div data-aos="fade-left" class="two">
+                <h4>Websites</h4>
+                <ul>
+                  <li>
+                    <a href="https://ekokam-uslugi-budowlane.pl/" target="_blank">Eko Kam Usługi Kamieniarsko
+                      Budowlane</a>
+                  </li>
+                  <li>
+                    <a href="https://ambitne-biuro-magdalena-ludian.pl/" target="_blank">Ambitne biuro</a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-left">
+          <div class="icon">
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <div class="description">
+            <h3>My GitHub</h3>
+            <p>
+              I have been dealing with GitHub for a short time, but I develop it regularly
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h1>Skills</h1>
+      <div class="contener">
+
+        <div class="skills-icon">
+          <div data-aos="flip-left" class="flip">
+            <i class="fa-brands fa-html5" style="color: #e5652e;"></i>
+          </div>
+
+          <div data-aos="flip-left" class="flip">
+            <i class="fa-brands fa-css3-alt" style="color: #1f99e5;"></i>
+          </div>
+
+          <div data-aos="flip-left" class="flip">
+            <i class="fa-brands fa-bootstrap" style="color: #9d19cc;"></i>
+          </div>
+
+          <div data-aos="flip-left" class="flip">
+            <i class="fa-brands fa-js" style="color: #dbdb0a;"></i>
+          </div>
+        </div>
+
+        <div class="projekts">
+          <h2>My projekts:</h2>
+          <div class="contener">
+
+            <div class="card" data-aos="zoom-in-up">
+              <div class="card-text">
+                <a href="https://darkdrops.github.io/weather-app/" target="_blank">Weather app</a>
+              </div>
+              <div class="card-image">
+                <img src="./grafika/weather-app.png" alt="">
+              </div>
+            </div>
+
+            <div class="card" data-aos="zoom-in-up">
+              <div class="card-text">
+                <a href="https://darkdrops.github.io/ToDo-list/" target="_blank">ToDo list</a>
+              </div>
+              <div class="card-image">
+                <img src="./grafika/todolist.png" alt="" srcset="">
+              </div>
+            </div>
+
+            <div class="card" data-aos="zoom-in-up">
+              <div class="card-text">
+                <a href="https://darkdrops.github.io/konwerter/" target="_blank">Konwerter</a>
+              </div>
+              <div class="card-image">
+                <img src="./grafika/konwerter.png" alt="">
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact">
+      <h1>Contact</h1>
+      <!-- <div class="contener">
+        <div class="form"> 
+
+          <form action="mail.php" method="post" data-aos="fade-right">
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Name:" required>
+
+            <label for="surname">Surname</label>
+            <input type="text" name="surname" placeholder="Surname:" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email:" required>
+
+            <label for="number">Message</label>
+            <textarea name="text" id="text" placeholder="Message:" cols="30" rows="10"></textarea>
+
+            <button type="submit">submit</button>
+          </form>
+          <p class="msg-status"></p>
+        </div>
+      -->
+
+      <div class="social-media">
+        <div class="start">
+          <i class="fa-solid fa-envelope"></i>
+          <div class="show">
+            <p>kubapilat31@gmail.com</p>
+          </div>
+        </div>
+        <div class="insta">
+          <i class="fa-brands fa-instagram"></i>
+          <div class="show">
+            <p>kubaa_pilat</p>
+          </div>
+        </div>
+        <div class="last">
+          <i class="fa-solid fa-phone"></i>
+          <div class="show">
+            <p>531-585-876</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+    <div>
+      <h4>Create by: Jakub Piłat</h4>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script type="module" src="./script/script.js"></script>
+</body>
